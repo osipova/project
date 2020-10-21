@@ -1,0 +1,22 @@
+header{
+	width: 100%;
+	min-height: 300px;
+	background-color: red;
+	max-width:736px;
+	margin: 10px auto 0;
+}
+@media (min-width: 768px){
+	header{
+		width: calc(100% - 32px);
+		background-color: green;
+		max-width: 1360px;
+		margin-top: 50px;
+	}
+}
+@media (min-width: 1440px){
+	header{
+		width: calc(100% - 80px);
+		background-color: blue;
+		max-width: 1800px;
+	}
+}
